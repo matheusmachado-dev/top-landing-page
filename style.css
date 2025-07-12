@@ -35,3 +35,29 @@ img {
   height: auto;
 }
 /* ================================================== */
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  padding: 16px;
+}
+header .logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+header ul {
+  display: flex;
+  gap: 32px;
+}
+
+header ul li {
+  color: #e5e7eb;
+  font-size: 18px;
+}
