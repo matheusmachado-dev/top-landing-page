@@ -175,6 +175,40 @@ ul {
   background-color: #e5e7eb;
 }
 
+.quote-title {
+  font-weight: bold;
+}
+
 blockquote + p {
   text-align: right;
+}
+
+#call-to-action-section,
+#call-to-action-section h2,
+#call-to-action-section button {
+  color: #e5e7eb;
+}
+
+#call-to-action-section {
+  padding: 100px 0;
+}
+
+#call-to-action-section .container {
+  padding: 48px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+#call-to-action-section h2 {
+  font-size: 24px;
+}
+
+.call-to-action-button {
+  border: 3px solid #e5e7eb;
+  height: fit-content;
+  padding: 8px 24px;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
