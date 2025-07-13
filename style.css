@@ -212,3 +212,12 @@ blockquote + p {
   border-radius: 0.5rem;
   cursor: pointer;
 }
+
+footer .container {
+  padding: 32px 0;
+}
+
+.footer-text {
+  text-align: center;
+  color: #e5e7eb;
+}
