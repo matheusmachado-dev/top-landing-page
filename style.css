@@ -42,7 +42,7 @@ a {
 /* ================================================== */
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .dark-background {
@@ -73,8 +73,8 @@ h2 {
 
 .quote-text {
   font-size: 36px;
+  font-weight: 300;
   font-style: italic;
-  font-weight: lighter;
   color: #1f2937;
 }
 
@@ -169,4 +169,12 @@ ul {
 .card-container {
   display: flex;
   gap: 56px;
+}
+
+#quote-section {
+  background-color: #e5e7eb;
+}
+
+blockquote + p {
+  text-align: right;
 }
